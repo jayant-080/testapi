@@ -9,7 +9,7 @@ app.get('/hi',(req,res)=>{
     res.status(200).json({
         message:"hi boy"
     })
-
+})
 
 app.get('/hello',(req,res)=>{
     res.status(200).json({
